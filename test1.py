@@ -1,7 +1,10 @@
-a = input()
-b = list()
+a = input("Имя")
+c = input("Результат")
+b = dict()
 while a != '0':
-    b.append(a)
-    a = input()
-b.sort()
+    b[a] = c
+    a = input('Имя')
+    if a == '0':
+        break
+    c = input('Результат')
 print(b)
