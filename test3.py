@@ -8,3 +8,10 @@ while a != 0:
     b += a
     a = int(input())
 print(str(b/c))
+
+
+a = input()
+b = 0
+for i in range(len(a)):
+    b += int(a[i])
+print(b)
